@@ -1,6 +1,6 @@
 # arithmetic_operations.py
 
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     #Perform basic arithmetic operations.
 
     #Parameters:
@@ -10,7 +10,7 @@ def perform_operation(num1: float, num2: float, operation: str):
 
     #Returns:
         #float or str: Result of the operation, or error message
-        
+
     match operation:
         case "add":
             return num1 + num2
