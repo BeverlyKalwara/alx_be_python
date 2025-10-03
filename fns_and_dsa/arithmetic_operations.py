@@ -1,17 +1,16 @@
 # arithmetic_operations.py
 
 def perform_operation(num1: float, num2: float, operation: str):
-    """
-    Perform basic arithmetic operations.
+    #Perform basic arithmetic operations.
 
-    Parameters:
-        num1 (float): First number
-        num2 (float): Second number
-        operation (str): One of 'add', 'subtract', 'multiply', 'divide'
+    #Parameters:
+        #num1 (float): First number
+        #num2 (float): Second number
+        #operation (str): One of 'add', 'subtract', 'multiply', 'divide'
 
-    Returns:
-        float or str: Result of the operation, or error message
-    """
+    #Returns:
+        #float or str: Result of the operation, or error message
+        
     match operation:
         case "add":
             return num1 + num2
